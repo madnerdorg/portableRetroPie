@@ -1,47 +1,46 @@
-Work In Progress
+Console Retropie 
 ----------------
+An easy to build, affordable portable console based on [pigrrl zero](https://learn.adafruit.com/pigrrl-zero/overview)
 
-# Buy
-(Shipping included)
-Prices for france.
+# Components
+![Components](guide/01_Components.jpg)
 
-* TFT LCD pi hat v0.2a : 10.74€ (aliexpress)
-* Raspberry Pi Zero:  11.17€ (pi hut)
-* Stripboard * 10 : 1.64€ (aliexpress)
-* Buttons : 3.23€ (aliexpress)
-* Sandisk Ultra 16go : 9,38€ (amazon)
----------------------------------------------
-36.16€
+# Tools
+![Tools](guide/02_Tools.jpg)
 
-* Adafruit PowerBoost 1000c charger : 25.19€ (amazon)
-* Lithium Battery 2000-2500mah : 19.80€ (semageek)
------------------------------------------------
-44.99€
-Total: 81.15€
+# Wiring Power circuit
+![Power](guide/03_Power.jpg)
+
+# Wiring Buttons
+## Stripboard 
+![Stripboard](guide/04_Power.jpg)
+## Raspberry Pi
+![Rpi_Buttons](guide/05_Power.jpg)
 
 # Install Retropie
 https://learn.adafruit.com/pigrrl-zero/software
 https://adafruit-download.s3.amazonaws.com/PiGRRL_Zero_20160912.zip
+
 # 3D print case
 
 # Wiring PowerBoost 1000c
 https://learn.adafruit.com/pigrrl-zero/software?view=all#power
-# Wiring buttons
 
-| IN/OUT | POSITION | TOP/BOTTOM | COLOR  | GPIO | NAME             |
-|--------|----------|------------|--------|------|------------------|
-| IN     | 1        | BOT        | BLACK  | GND  | GROUND (Pad)     |
-| OUT    | 4        | BOT        | BLACK  | GND  | GROUND (Buttons) |
-| IN     | 4        | TOP        | BLUE   | 4    | LEFT             |
-| IN     | 4        | BOT        | PURPLE | 13   | RIGHT            |
-| OUT    | 3        | BOT        | ORANGE | 16   | UP               |
-| IN     | 2        | BOT        | BROWN  | 26   | DOWN             |
-| IN     | 5        | BOT        | RED    | 6    | A                |
-| IN     | 7        | TOP        | YELLOW | 27   | B                |
-| OUT    | 2        | BOT        | BLUE   | 20   | Y                |
-| IN     | 6        | TOP        | GREEN  | 17   | X                |
-| OUT    | 5        | BOT        | ORANGE | 12   | LEFT TRIGGER     |
-| IN     | 4        | BOT        | RED    | 13   | RIGHT TRIGGER    |
+# Wiring buttons
+| IN/OUT | TOP/BOTTOM | POSITION  | COLOR  | GPIO | NAME             |
+|--------|------------|-----------|--------|------|------------------|
+| IN     | BOT        | 1         | BLACK  | GND  | GROUND (Pad)     |
+| OUT    | BOT        | 4         | BLACK  | GND  | GROUND (Buttons) |
+| IN     | TOP        | 4         | BLUE   | 4    | LEFT             |
+| IN     | BOT        | 4         | PURPLE | 13   | RIGHT            |
+| OUT    | BOT        | 3         | ORANGE | 16   | UP               |
+| IN     | BOT        | 2         | BROWN  | 26   | DOWN             |
+| IN     | BOT        | 5         | RED    | 6    | A                |
+| IN     | TOP        | 7         | YELLOW | 27   | B                |
+| OUT    | BOT        | 2         | BLUE   | 20   | Y                |
+| IN     | TOP        | 6         | GREEN  | 17   | X                |
+| OUT    | BOT        | 5         | YELLOW | 12   | LEFT TRIGGER     |
+| IN     | BOT        | 7         | GREEN  |  1   | RIGHT TRIGGER    |
 ```
 # Sample configuration file for retrogame.
 # Really minimal syntax, typically two elements per line w/space delimiter:
