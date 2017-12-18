@@ -1,6 +1,8 @@
 Console Retropie 
 ----------------
-An easy to build, affordable portable console based on [pigrrl zero](https://learn.adafruit.com/pigrrl-zero/overview)
+An easy to build, affordable portable console based on [pigrrl zero](https://learn.adafruit.com/pigrrl-zero/overview)   
+BrainStorm : http://bigpictu.re/remi/retropieconsole
+
 
 # Components
 ![Components](guide/01_Components.jpg)
