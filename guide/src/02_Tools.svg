@@ -15,8 +15,8 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="02 - Tools.svg"
-   inkscape:export-filename="C:\Users\p\Documents\GitHub\portableRetroPie\guide\src\02_Tools.png"
+   sodipodi:docname="02_Tools.svg"
+   inkscape:export-filename="E:\user\Google Drive\MADNERD\github\portableRetroPie\guide\src\02_Tools.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-177.76737"
-     inkscape:cy="891.9771"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="347.29475"
+     inkscape:cy="900.61927"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,7 +56,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       transform="translate(-4.963411,-157.63494)"
+       transform="translate(0.9165189,-173.1366)"
        style="display:inline;opacity:1"
        id="g8951">
       <g
@@ -104,7 +104,7 @@
       </g>
     </g>
     <g
-       transform="translate(-0.95436735,-171.53296)"
+       transform="translate(4.9255626,-187.03462)"
        style="display:inline;opacity:1"
        id="g8941">
       <text
@@ -223,7 +223,7 @@
       </g>
     </g>
     <g
-       transform="translate(-1.4889074,-191.3109)"
+       transform="translate(4.3910225,-206.81256)"
        style="display:inline;opacity:1"
        id="g8925">
       <rect
@@ -461,7 +461,7 @@
     <g
        style="display:inline;opacity:1"
        id="g8735"
-       transform="matrix(0.95392875,0,0,0.95392875,-11.845107,-180.88932)">
+       transform="matrix(0.95392875,0,0,0.95392875,-5.9651772,-196.39098)">
       <rect
          transform="matrix(-0.06104644,-0.99813493,0.9981154,-0.06136487,0,0)"
          rx="0.072041027"
@@ -525,40 +525,6 @@
          width="1.7918251"
          id="rect2124-8-3"
          style="display:inline;opacity:1;fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:0.15668404;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:18.28181076px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.14261317"
-       x="85.562347"
-       y="27.425161"
-       id="text8685-1"><tspan
-         sodipodi:role="line"
-         id="tspan8683-1"
-         x="85.562347"
-         y="27.425161"
-         style="stroke-width:1.14261317">Tools</tspan></text>
-    <g
-       transform="translate(38.08814,4.8929838)"
-       style="display:inline;opacity:1"
-       id="g1024">
-      <ellipse
-         ry="5.8141117"
-         rx="6.2792411"
-         cy="16.94035"
-         cx="40.065826"
-         id="path1011"
-         style="display:inline;opacity:1;fill:#c8b7b7;stroke:#c8b7b7;stroke-width:0.26458332" />
-      <text
-         id="text4780"
-         y="20.521723"
-         x="36.819733"
-         style="font-style:normal;font-weight:normal;font-size:9.89119434px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.24727985"
-         xml:space="preserve"><tspan
-           style="stroke-width:0.24727985"
-           y="20.521723"
-           x="36.819733"
-           id="tspan4778"
-           sodipodi:role="line">2</tspan></text>
     </g>
   </g>
 </svg>

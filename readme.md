@@ -2,7 +2,7 @@ Console Retropie
 ----------------
 An easy to build, affordable portable console based on [pigrrl zero](https://learn.adafruit.com/pigrrl-zero/overview)   
 BrainStorm : http://bigpictu.re/remi/retropieconsole
-
+(Work in progress)
 
 # Components
 ![Components](guide/01_Components.jpg)
@@ -15,9 +15,9 @@ BrainStorm : http://bigpictu.re/remi/retropieconsole
 
 # Wiring Buttons
 ## Stripboard 
-![Stripboard](guide/04_Power.jpg)
+![Stripboard](guide/04_Buttons_stripboard.jpg)
 ## Raspberry Pi
-![Rpi_Buttons](guide/05_Power.jpg)
+![Rpi_Buttons](guide/05_Buttons_RPI.jpg)
 
 # Install Retropie
 https://learn.adafruit.com/pigrrl-zero/software
