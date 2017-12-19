@@ -4,31 +4,26 @@ An easy to build, affordable portable console based on [pigrrl zero](https://lea
 BrainStorm : http://bigpictu.re/remi/retropieconsole
 (Work in progress)
 
-# Components
+# What do you need
+
+## Components
 ![Components](guide/01_Components.jpg)
 
-# Tools
+## Tools
 ![Tools](guide/02_Tools.jpg)
 
-# Wiring Power circuit
+# Wiring
+
+## Wiring Power circuit
+Based on Adafruit pigrrl zero: https://learn.adafruit.com/pigrrl-zero/software?view=all#power    
 ![Power](guide/03_Power.jpg)
 
-# Wiring Buttons
-## Stripboard 
+## Wiring Buttons
+### Stripboard 
 ![Stripboard](guide/04_Buttons_stripboard.jpg)
-## Raspberry Pi
+### Raspberry Pi
 ![Rpi_Buttons](guide/05_Buttons_RPI.jpg)
 
-# Install Retropie
-https://learn.adafruit.com/pigrrl-zero/software
-https://adafruit-download.s3.amazonaws.com/PiGRRL_Zero_20160912.zip
-
-# 3D print case
-
-# Wiring PowerBoost 1000c
-https://learn.adafruit.com/pigrrl-zero/software?view=all#power
-
-# Wiring buttons
 | IN/OUT | TOP/BOTTOM | POSITION  | COLOR  | GPIO | NAME             |
 |--------|------------|-----------|--------|------|------------------|
 | IN     | BOT        | 1         | BLACK  | GND  | GROUND (Pad)     |
@@ -43,40 +38,26 @@ https://learn.adafruit.com/pigrrl-zero/software?view=all#power
 | IN     | TOP        | 6         | GREEN  | 17   | X                |
 | OUT    | BOT        | 5         | YELLOW | 12   | LEFT TRIGGER     |
 | IN     | BOT        | 7         | GREEN  |  1   | RIGHT TRIGGER    |
-```
-# Sample configuration file for retrogame.
-# Really minimal syntax, typically two elements per line w/space delimiter:
-# 1) a key name (from keyTable.h; shortened from /usr/include/linux/input.h).
-# 2) a GPIO pin number; when grounded, will simulate corresponding keypress.
-# Uses Broadcom pin numbers for GPIO.
-# If first element is GND, the corresponding pin (or pins, multiple can be
-# given) is a LOW-level output; an extra ground pin for connecting buttons.
-# A '#' character indicates a comment to end-of-line.
-# File can be edited "live," no need to restart retrogame!
 
-# Here's a pin configuration for the PiGRRL Zero project:
+## Wiring MPU9250 (Optional)
+![MPU](guide/06_Screen_MPU9250.jpg)
 
-LEFT       4  # Joypad left
-RIGHT     13  # Joypad right
-DOWN      26  # Joypad down
-UP        16  # Joypad up
-Z          6  # 'A' button
-X         27  # 'B' button
-A         20  # 'X' button
-S         17  # 'Y' button
-Q         12  # Left shoulder button
-W         13  # Right shoulder button
-ESC       22  # Exit ROM; PiTFT Button 1
-LEFTCTRL   5  # 'Select' button; PiTFT Button 2
-ENTER     24  # 'Start' button; PiTFT Button 3
-4         23  # PiTFT Button 4 (PowerOff)
+# 3D print case
+The case was created using Blender.    
+We are working on model2 : http://bigpictu.re/remi/retropieconsole
 
-# For configurations with few buttons (e.g. Cupcade), a key can be followed
-# by multiple pin numbers.  When those pins are all held for a few seconds,
-# this will generate the corresponding keypress (e.g. ESC to exit ROM).
-# Only ONE such combo is supported within the file though; later entries
+Here a link with the current test model:
+[portableRetropie/stl](https://github.com/madnerdorg/portableRetroPie/tree/master/stl)
 
-# Add poweroff button script
+
+# Install Retropie
+* https://learn.adafruit.com/pigrrl-zero/software
+* https://adafruit-download.s3.amazonaws.com/PiGRRL_Zero_20160912.zip
+
+## Setup retropie
+
+## Add poweroff button script
+````
 #!/usr/bin/python
 import RPi.GPIO as GPIO
 import time
@@ -103,11 +84,9 @@ while True:
         oldButtonState1 = buttonState1
 
     time.sleep(.5)
-```
+````
 
-
-# Settings Retropie
-## Settings gpio buttons
+## Retrogame (gpio buttons)
 https://learn.adafruit.com/retro-gaming-with-raspberry-pi/adding-controls-software
 
 ```
@@ -119,20 +98,34 @@ sudo bash retrogame.sh
 Select 1
 
 Modify /boot/retrogame.cfg
-```
-```
+````
+LEFT       4  # Joypad left
+RIGHT     13  # Joypad right
+DOWN      26  # Joypad down
+UP        16  # Joypad up
+Z          6  # 'A' button
+X         27  # 'B' button
+A         20  # 'X' button
+S         17  # 'Y' button
+Q         12  # Left shoulder button
+W         13  # Right shoulder button
+ESC       22  # Exit ROM; PiTFT Button 1
+LEFTCTRL   5  # 'Select' button; PiTFT Button 2
+ENTER     24  # 'Start' button; PiTFT Button 3
+4         23  # PiTFT Button 4 (PowerOff)
+````
 
-# Add gyro/compass
-## Install I2C
+# Additional functionatily
+
+## Add gyro/compass
+### Install I2C
 http://kingtidesailing.blogspot.fr/2016/02/how-to-setup-mpu-9250-on-raspberry-pi_25.html
 
+### Calibrate MPU 9250
 
-
-## Calibrate MPU 9250
-
-## Using it
+### Using it
 ```
 apt-get install  python-rtimulib
 ```
 
-# Install libreconnect
+## Install libreconnect
