@@ -1,28 +1,22 @@
-Console Retropie 
-----------------
-An easy to build, affordable portable console based on [pigrrl zero](https://learn.adafruit.com/pigrrl-zero/overview)   
-BrainStorm : http://bigpictu.re/remi/retropieconsole
-(Work in progress)
-
 # What do you need
 
 ## Components
-![Components](guide/01_Components.jpg)
+![Components](docs/img/01_Components.jpg)
 
 ## Tools
-![Tools](guide/02_Tools.jpg)
+![Tools](docs/img/02_Tools.jpg)
 
 # Wiring
 
 ## Wiring Power circuit
 Based on Adafruit pigrrl zero: https://learn.adafruit.com/pigrrl-zero/software?view=all#power    
-![Power](guide/03_Power.jpg)
+![Power](docs/img/03_Power.jpg)
 
 ## Wiring Buttons
 ### Stripboard 
-![Stripboard](guide/04_Buttons_stripboard.jpg)
+![Stripboard](docs/img/04_Buttons_stripboard.jpg)
 ### Raspberry Pi
-![Rpi_Buttons](guide/05_Buttons_RPI.jpg)
+![Rpi_Buttons](docs/img/05_Buttons_RPI.jpg)
 
 | IN/OUT | TOP/BOTTOM | POSITION  | COLOR  | GPIO | NAME             |
 |--------|------------|-----------|--------|------|------------------|
@@ -40,7 +34,7 @@ Based on Adafruit pigrrl zero: https://learn.adafruit.com/pigrrl-zero/software?v
 | IN     | BOT        | 7         | GREEN  |  1   | RIGHT TRIGGER    |
 
 ## Wiring MPU9250 (Optional)
-![MPU](guide/06_Screen_MPU9250.jpg)
+![MPU](docs/img/06_Screen_MPU9250.jpg)
 
 # 3D print case
 The case was created using Blender.    
