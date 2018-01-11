@@ -47,18 +47,17 @@ Select 1
 
 Modify /boot/retrogame.cfg
 ````
-LEFT       4  # Joypad left
-RIGHT     13  # Joypad right
+LEFT      13  # Joypad left
+RIGHT      4  # Joypad right
 DOWN      26  # Joypad down
 UP        16  # Joypad up
-Z          6  # 'A' button
+Z         20  # 'A' button
 X         27  # 'B' button
-A         20  # 'X' button
-S         17  # 'Y' button
-Q         12  # Left shoulder button
-W         13  # Right shoulder button
+A         17  # 'X' button
+S          6  # 'Y' button
+Q          1  # Left shoulder button
+W         12  # Right shoulder button
 ESC       22  # Exit ROM; PiTFT Button 1
 LEFTCTRL   5  # 'Select' button; PiTFT Button 2
 ENTER     24  # 'Start' button; PiTFT Button 3
-4         23  # PiTFT Button 4 (PowerOff)
 ````

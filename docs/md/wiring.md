@@ -23,7 +23,11 @@ Based on Adafruit pigrrl zero: https://learn.adafruit.com/pigrrl-zero/software?v
 | OUT    | BOT        | 2         | BLUE   | 20   | Y                |
 | IN     | TOP        | 6         | GREEN  | 17   | X                |
 | OUT    | BOT        | 5         | YELLOW | 12   | LEFT TRIGGER     |
-| IN     | BOT        | 7         | GREEN  |  1   | RIGHT TRIGGER    |
+| OUT     | BOT        | 7         | GREEN  |  1   | RIGHT TRIGGER    |
+
+## I2S Audio (Optional)
+![I2SAudio](img/07_AUDIO_I2S.jpg)
 
 ## Wiring MPU9250 (Optional)
 ![MPU](img/06_Screen_MPU9250.jpg)
+
